@@ -1,0 +1,91 @@
+/* Example styles for Header */
+.navbar {
+    background-color: #0b1a56;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #0b1a56;
+    cursor: pointer;
+}
+
+/* Example styles for ProductCard */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #f57c00;
+    font-size: 18px;
+}
+
+.product-description {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.buy-now-button {
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Example styles for Footer */
+footer {
+    background-color: #0b1a56;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links, .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.footer-links li, .social-links li {
+    margin: 0 10px;
+}
+
+.footer-links a, .social-links a {
+    color: white;
+    text-decoration: none;
+}
